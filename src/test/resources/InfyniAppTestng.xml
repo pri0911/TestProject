@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="InfyniApplication">
+    <test name="LaunchHelpCenterTest">
+        <classes>
+            <class name="com.infini.tests.InfyniAppTestCae">
+                <methods>
+                    <include name="LaunchHelpCenter"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="PrivacyPolicyTest">
+        <classes>
+            <class name="com.infini.tests.InfyniAppTestCae">
+                <methods>
+                    <include name="PrivacyPolicy"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

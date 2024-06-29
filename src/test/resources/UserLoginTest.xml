@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="User Login Test Cases">
+    <test name="Verify User Login">
+        <classes>
+            <class name="com.infini.tests.InfyniAppLoginTestCase">
+                <methods>
+                    <parameter name="email" value="test@test.com"/>
+                    <parameter name="password" value="Test@123"/>
+                    <parameter name="userName" value="TestAcctInfyni Projectacc"/>
+                    <include name="infyniLoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
