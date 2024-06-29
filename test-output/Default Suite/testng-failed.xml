@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestProject(failed)">
+    <classes>
+      <class name="com.infini.tests.InfyniAppLoginTestCase">
+        <methods>
+          <include name="teardownBrowser"/>
+          <include name="infyniLoginTest"/>
+          <include name="setupBrowser"/>
+        </methods>
+      </class> <!-- com.infini.tests.InfyniAppLoginTestCase -->
+    </classes>
+  </test> <!-- TestProject(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

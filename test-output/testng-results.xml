@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Report For Log Help Center]]>
+    </line>
+    <line>
+      <![CDATA[Test Report For Privacy Policy]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-29T10:28:55 EDT" name="User Login Test Cases (0)" finished-at="2024-06-29T10:29:17 EDT" duration-ms="21994">
+    <groups>
+    </groups>
+    <test started-at="2024-06-29T10:28:55 EDT" name="Verify User Login" finished-at="2024-06-29T10:29:17 EDT" duration-ms="21994">
+      <class name="com.infini.tests.InfyniAppLoginTestCase">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.infini.tests.InfyniAppLoginTestCase@3cc1435c]" started-at="2024-06-29T10:28:55 EDT" name="setupBrowser" finished-at="2024-06-29T10:29:06 EDT" duration-ms="11250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="infyniLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.infini.tests.InfyniAppLoginTestCase@3cc1435c]" started-at="2024-06-29T10:29:06 EDT" name="infyniLoginTest" finished-at="2024-06-29T10:29:17 EDT" duration-ms="10551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestAcctInfyni Projectacc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infyniLoginTest -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.infini.tests.InfyniAppLoginTestCase@3cc1435c]" started-at="2024-06-29T10:29:17 EDT" name="teardownBrowser" finished-at="2024-06-29T10:29:17 EDT" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.infini.tests.InfyniAppLoginTestCase -->
+    </test> <!-- Verify User Login -->
+  </suite> <!-- User Login Test Cases (0) -->
+  <suite started-at="2024-06-29T10:29:50 EDT" name="User Login Test Cases" finished-at="2024-06-29T10:29:50 EDT" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- User Login Test Cases -->
+  <suite started-at="2024-06-29T10:29:17 EDT" name="InfyniApplication" finished-at="2024-06-29T10:29:50 EDT" duration-ms="33413">
+    <groups>
+    </groups>
+    <test started-at="2024-06-29T10:29:17 EDT" name="LaunchHelpCenterTest" finished-at="2024-06-29T10:29:32 EDT" duration-ms="15183">
+      <class name="com.infini.tests.InfyniAppTestCae">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.infini.tests.InfyniAppTestCae@57af006c]" started-at="2024-06-29T10:29:17 EDT" name="setupBrowser" finished-at="2024-06-29T10:29:29 EDT" duration-ms="11892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="LaunchHelpCenter()[pri:0, instance:com.infini.tests.InfyniAppTestCae@57af006c]" started-at="2024-06-29T10:29:29 EDT" name="LaunchHelpCenter" finished-at="2024-06-29T10:29:32 EDT" duration-ms="3146" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Report For Log Help Center]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchHelpCenter -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.infini.tests.InfyniAppTestCae@57af006c]" started-at="2024-06-29T10:29:32 EDT" name="teardownBrowser" finished-at="2024-06-29T10:29:32 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.infini.tests.InfyniAppTestCae -->
+    </test> <!-- LaunchHelpCenterTest -->
+    <test started-at="2024-06-29T10:29:32 EDT" name="PrivacyPolicyTest" finished-at="2024-06-29T10:29:50 EDT" duration-ms="18227">
+      <class name="com.infini.tests.InfyniAppTestCae">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.infini.tests.InfyniAppTestCae@446293d]" started-at="2024-06-29T10:29:32 EDT" name="setupBrowser" finished-at="2024-06-29T10:29:45 EDT" duration-ms="12961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="PrivacyPolicy()[pri:0, instance:com.infini.tests.InfyniAppTestCae@446293d]" started-at="2024-06-29T10:29:45 EDT" name="PrivacyPolicy" finished-at="2024-06-29T10:29:50 EDT" duration-ms="5122" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Report For Privacy Policy]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PrivacyPolicy -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.infini.tests.InfyniAppTestCae@446293d]" started-at="2024-06-29T10:29:50 EDT" name="teardownBrowser" finished-at="2024-06-29T10:29:50 EDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.infini.tests.InfyniAppTestCae -->
+    </test> <!-- PrivacyPolicyTest -->
+  </suite> <!-- InfyniApplication -->
+</testng-results>
