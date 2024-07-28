@@ -1,23 +1,20 @@
 package com.infini.base;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.ITest;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 
 public class TestBase {
     public static WebDriver driver;
 
-    @BeforeMethod(alwaysRun = true )
+    @BeforeMethod(alwaysRun = true)
     public void setupBrowser() throws InterruptedException {
 
-        System.out.println("Setup Before Test");
+        //System.out.println("Setup Before Test");
 
         System.setProperty("webdriver.chrome.driver", "/Users/PriyaJadhawar/IntelliJ/TestProject/InfiniTestProject/TestProject/chromedriver");
 
@@ -26,14 +23,13 @@ public class TestBase {
         driver.get("https://devnj.infyni.com/");
 
         driver.manage().window().maximize();
-
         Thread.sleep(5000);
 
     }
+
     @AfterMethod(alwaysRun = true)
     public void teardownBrowser() {
-        System.out.println("Setup After Test");
+        // System.out.println("Setup After Test");
         driver.quit();
     }
-
 }
