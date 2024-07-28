@@ -22,9 +22,12 @@ public class InfyniAppTestCae extends TestBase {
         WebElement Faqtitle = driver.findElement(InfiniHelpCenterPage.Faqtitle);
 
         Assert.assertTrue(Faqtitle.isDisplayed());
+
         Reporter.log("Test Report For Log Help Center");
+
         //driver.navigate().back();
     }
+
     @Test
     public void PrivacyPolicy() throws InterruptedException {
 
@@ -40,5 +43,4 @@ public class InfyniAppTestCae extends TestBase {
         Reporter.log("Test Report For Privacy Policy");
     }
 
-    }
-
+}
